@@ -54,13 +54,27 @@ window.onload = function(){
     function showLoading(){
         var oSpan = oLoading.getElementsByTagName('span')[0];
         var aDiv = oLoading.getElementsByTagName('div');
-        var arr = ['bg1.jpg','bg2.jpg','bg3.jpg','bg4.jpg','bg5.jpg','about1.jpg','about2.jpg','about3.jpg','about4.jpg','worksimg1.jpg','worksimg2.jpg','worksimg3.jpg','worksimg4.jpg','team.png','greenLine.png'];
+        var arr = ['<%=image_path('img/bg1.jpg') %>',
+            '<%=image_path('img/bg2.jpg') %>',
+            '<%=image_path('img/bg3.jpg') %>',
+            '<%=image_path('img/bg4.jpg') %>',
+            '<%=image_path('img/bg5.jpg') %>',
+            '<%=image_path('img/about1.jpg') %>',
+            '<%=image_path('img/about2.jpg') %>',
+            '<%=image_path('img/about3.jpg') %>',
+            '<%=image_path('img/about4.jpg') %>',
+            '<%=image_path('img/worksimg1.jpg') %>',
+            '<%=image_path('img/worksimg2.jpg') %>',
+            '<%=image_path('img/worksimg3.jpg') %>',
+            '<%=image_path('img/worksimg4.jpg') %>',
+            '<%=image_path('img/team.png') %>',
+            '<%=image_path('img/greenLine.png') %>'];
         var iNow = 0;
 
         for(var i=0;i<arr.length;i++){
 
             var objImg = new Image();
-            objImg.src = '/assets/img/'+arr[i];
+            objImg.src = arr[i];
             objImg.onload = function(){
                 iNow++;
                 oSpan.style.width = iNow/arr.length*100 + '%';
@@ -232,20 +246,26 @@ window.onload = function(){
 
     }
 
+    //第一种在js设置图片的写法，是呀代码设置
     function workContent(){
         //oWorksContent2
-        var data = [
-            { img : '/assets/img/worksimg1.jpg' , text : 'New journey' },
-            { img : '/assets/img/worksimg2.jpg' , text : 'New BOSS' },
-            { img : '/assets/img/worksimg3.jpg' , text : 'New map' },
-            { img : '/assets/img/worksimg4.jpg' , text : 'New scenario' }
-        ];
-        for(var i=0;i<data.length;i++){
-            var oDivParent = document.createElement('div');
-            oDivParent.className = 'worksImgParent';
-            oDivParent.innerHTML = '<img class="worksImg" src="'+(data[i].img)+'"><div class="worksImgMark"><span>'+(data[i].text)+'</span><div></div></div>';
-            oWorksContent2.appendChild(oDivParent);
-        }
+//        var data = [
+//            { img : '/assets/img/worksimg1.jpg' , text : 'New journey' },
+//            { img : '/assets/img/worksimg2.jpg' , text : 'New BOSS' },
+//            { img : '/assets/img/worksimg3.jpg' , text : 'New map' },
+//            { img : '/assets/img/worksimg4.jpg' , text : 'New scenario' }
+//        ];
+        <%
+         img = %w(img/worksimg1.jpg img/worksimg2.jpg img/worksimg3.jpg img/worksimg4.jpg)
+         text = ['New journey', 'New BOSS','New map','New scenario']
+         %>
+        <% for i in  0..img.length %>
+        var oDivParent = document.createElement('div');
+        oDivParent.className = 'worksImgParent';
+//        oDivParent.innerHTML = '<img class="worksImg" src="'+(data[i].img)+'"><div class="worksImgMark"><span>'+(data[i].text)+'</span><div></div></div>';
+        oDivParent.innerHTML = '<%= image_tag("#{img[i]}" , :class => "worksImg") %><div class="worksImgMark"><span>(<%= "#{text[i].to_s}" %>)</span><div></div></div>';
+        oWorksContent2.appendChild(oDivParent);
+        <% end %>
 
     }
 
@@ -325,21 +345,22 @@ window.onload = function(){
         }
     }
 
+    //第二章js设置图片的方法。请跳转到application.html.reb
     function courseContent(){
         //oCourseContent3
         var data = [
-            { img : '/assets/img/ps4.png' , text : 'ps4首发' },
-            { img : '/assets/img/xbox.png' , text : 'xbox360手柄强力推荐' },
-            { img : '/assets/img/microsoft.png' , text : 'Microsoft官方同步预售' },
-            { img : '/assets/img/tencent.png' , text : 'Tencent WeGame期待您的加入' },
-            { img : '/assets/img/sony.png' , text : 'sony持续为你护航' },
-            { img : '/assets/img/ubisoft.png' , text : '育碧游戏为您提供' },
-            { img : '/assets/img/blizzard.png' , text : '暴雪游戏倾情加盟' },
-            { img : '/assets/img/steam.png' , text : 'Steam官方发售预备中' },
-            { img : '/assets/img/capcom.png' , text : 'CAPCOM 您的得力助手' },
-            { img : '/assets/img/shanda.png' , text : '盛大游戏同步预售中' },
-            { img : '/assets/img/nintendo.png' , text : 'Nintendo you can you up' },
-            { img : '/assets/img/ea.png' , text : 'EA 不解释' }
+            {img: '<%= image_path("img/ps4.png") %>', text: 'ps4首发'},
+            {img: '<%= image_path("img/xbox.png") %>', text: 'xbox360手柄强力推荐'},
+            {img: '<%= image_path("img/microsoft.png") %>', text: 'Microsoft官方同步预售'},
+            {img: '<%= image_path("img/tencent.png") %>', text: 'Tencent WeGame期待您的加入'},
+            {img: '<%= image_path("img/sony.png") %>', text: 'sony持续为你护航'},
+            {img: '<%= image_path("img/ubisoft.png") %>', text: '育碧游戏为您提供'},
+            {img: '<%= image_path("img/blizzard.png") %>', text: '暴雪游戏倾情加盟'},
+            {img: '<%= image_path("img/steam.png") %>', text: 'Steam官方发售预备中'},
+            {img: '<%= image_path("img/capcom.png") %>', text: 'CAPCOM 您的得力助手'},
+            {img: '<%= image_path("img/shanda.png") %>', text: '盛大游戏同步预售中'},
+            {img: '<%= image_path("img/nintendo.png") %>', text: 'Nintendo you can you up'},
+            {img: '<%= image_path("img/ea.png") %>', text: 'EA 不解释'}
         ];
         create();
         function create(){
@@ -634,11 +655,11 @@ window.onload = function(){
         var onoff = true;
         oMusic.onclick = function(){
             if(onoff){
-                this.style.background = 'url(/assets/img/musicon.gif)';
+                this.style.background = 'url(<%= image_path("img/musicon.gif") %>)';
 //				oAudio.play();
             }
             else{
-                this.style.background = 'url(/assets/img/musicoff.gif)';
+                this.style.background = 'url(<%= image_path("img/musicon.gif") %>)';
                 oAudio.pause();
             }
             onoff = !onoff;
