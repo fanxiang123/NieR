@@ -9,7 +9,6 @@ rails secret
 允许assets
 rake assets:precompile
 
-
 class Api::V2::IntegralsController < ApplicationAppController
 
   swagger_controller :integral, 'v2积分系列接口'
@@ -20,6 +19,7 @@ class Api::V2::IntegralsController < ApplicationAppController
     param :header, 'User-token', :string, :required, 'User-token'
     param :header, 'Authorization', :string, :required, 'auth_token'
   end
+
   def get_integral
     e_user = check_user_token
 
@@ -39,7 +39,7 @@ class Api::V2::IntegralsController < ApplicationAppController
         #{e_user.id} and created_at>='#{Time.now.midnight}' and created_at<=
         '#{1.day.since.beginning_of_day}')as user_sign_num,
         (select count(*) from integrals where i_type = 5 and e_user_id =
-        #{e_user.id}')as share_app_num,
+        #{e_user.id})as share_app_num,
         (select count(*) from integrals where i_type = 1 and e_user_id =
         #{e_user.id} and created_at>='#{Time.now.midnight}' and created_at<=
         '#{1.day.since.beginning_of_day}')as transcribe_num,
@@ -60,5 +60,10 @@ class Api::V2::IntegralsController < ApplicationAppController
     render json: {code: 4444, msg: '服务错误' + err.message}, status: 200
   end
 
+  def total_integral(e_user_id)
+    Integral.where(e_user_id: e_user_id).sum(:num)
+  end
+
 end
+
 
