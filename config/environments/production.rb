@@ -31,7 +31,7 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # 在找不到已编译的静态资源文件的情况下，不退回到 Asset Pipeline
-  config.assets.compile = false
+  # config.assets.compile = false
 
 
   config.serve_static_assets = true

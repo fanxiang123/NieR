@@ -4,13 +4,31 @@
     <title>NieR</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="stylesheet" href="../assets/live2d/css/live2d.css"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <!--    <div class="hide-button">隐藏</div>-->
+  </div>
     <%= yield %>
+  <!--  添加jquery环境（必须）-->
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript">
+      var message_Path = 'https://6dduu6.github.io/live2d/' //message.js的目录（必须填写，否则无法加载交互的文字）
+      var home_Path = 'https://6dduu6.github.io/' //网站的根目录
+  </script>
+  <script type="text/javascript" src="../assets/live2d/js/live2d.js"></script>
+  <script type="text/javascript" src="../assets/live2d/js/message.js"></script>
+  <%#= javascript_include_tag "live2d/js/message" %>
+  <%#= javascript_include_tag "live2d/js/live2d" %>
+  <script type="text/javascript">
+      loadlive2d("live2d", "../assets/live2d/model/Pio/model.json"); //model.json和其模型等都需要放在服务器网站上
+  </script>
   </body>
 </html>

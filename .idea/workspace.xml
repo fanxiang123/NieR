@@ -23,7 +23,93 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ee9a760-3c50-418b-a85d-a71bf36a54d6" name="Default Changelist" comment="" />
+    <list default="true" id="0ee9a760-3c50-418b-a85d-a71bf36a54d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/css/live2d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/js/live2d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/js/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/model.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath Dere1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath Dere2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath Dere3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath7.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Breath8.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Fail.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Sleeping.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Success.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Sukebei1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Sukebei2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Sukebei3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch Dere6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/Touch6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/motions/WakeUp.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/textures/default-costume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/textures/pajamas-costume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/textures/school-costume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/model.2048/texture_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/model.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/motions/Anone_Synced.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/motions/Dance.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/motions/Idle.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/kesshouban_v2/motions/Nemui.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/model.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath Dere1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath Dere2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath Dere3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath7.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath8.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Breath9.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Fail.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Sleeping.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Success.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Sukebei1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Sukebei2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Sukebei3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch Dere6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch2.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch3.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch4.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch5.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/Touch6.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/motions/WakeUp.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/textures/default-costume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/textures/jersey-costume-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/live2d/model/tia/textures/pajamas-costume-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -40,31 +126,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7128">
-              <caret line="324" column="42" selection-start-line="324" selection-start-column="42" selection-end-line="324" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="264">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome.js.erb">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14322">
-              <caret line="651" column="5" selection-start-line="651" selection-start-column="5" selection-end-line="651" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -114,6 +192,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -126,11 +205,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome.js.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -152,18 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NieR" type="52f3b0f7:RailsProjectNode" />
-              <item name="NieR" type="ca5d24b0:RailsModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +254,7 @@
               <item name="NieR" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
@@ -195,6 +262,26 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NieR" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NieR" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Pio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
@@ -209,12 +296,19 @@
             </path>
             <path>
               <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NieR" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NieR" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NieR" type="52f3b0f7:RailsProjectNode" />
+              <item name="NieR" type="ca5d24b0:RailsModuleNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/javascripts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -239,13 +333,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/config/locales" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/config/locales" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,6 +422,7 @@
       <workItem from="1569295211276" duration="3145000" />
       <workItem from="1569304458158" duration="11421000" />
       <workItem from="1570757812988" duration="598000" />
+      <workItem from="1575537245003" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="H">
       <created>1569295382074</created>
@@ -354,7 +449,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15164000" />
+    <option name="totallyTimeSpent" value="17545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,10 +462,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="954" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.88361406" visible="true" weight="0.17217484" />
-      <window_info id="Structure" order="2" sideWeight="0.116385914" side_tool="true" visible="true" weight="0.17217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.88135594" visible="true" weight="0.17377399" />
+      <window_info id="Structure" order="2" sideWeight="0.118644066" side_tool="true" visible="true" weight="0.17377399" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Resources Explorer" order="5" />
@@ -381,9 +477,9 @@
       <window_info anchor="bottom" id="Find" order="2" weight="0.32971016" />
       <window_info anchor="bottom" id="TeamCity" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50053304" side_tool="true" weight="0.24879228" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49946696" visible="true" weight="0.21135266" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946696" weight="0.3188406" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.21618357" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" visible="true" weight="0.21618357" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.26086956" />
@@ -415,8 +511,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NieR@NieR.rcov" NAME="NieR Coverage Results" MODIFIED="1569296463856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NieR" />
-    <SUITE FILE_PATH="coverage/NieR@NieRProd.rcov" NAME="NieRProd Coverage Results" MODIFIED="1569313598694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NieR" />
-    <SUITE FILE_PATH="coverage/NieR@NieRDev.rcov" NAME="NieRDev Coverage Results" MODIFIED="1569307020969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NieR" />
+    <SUITE FILE_PATH="coverage/NieR@NieRProd.rcov" NAME="NieRProd Coverage Results" MODIFIED="1575539691153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NieR" />
+    <SUITE FILE_PATH="coverage/NieR@NieRDev.rcov" NAME="NieRDev Coverage Results" MODIFIED="1575538471243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NieR" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
@@ -601,55 +697,109 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/img/menuIndicator.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="136" column="57" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#3;n#ul#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#li#3;n#ul#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/application-13b84022c8f59b573a449f18e125306cf0ed039e8888f176f89f25879cec5130.css" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7128">
-          <caret line="324" column="42" selection-start-line="324" selection-start-column="42" selection-end-line="324" selection-end-column="42" />
+        <state relative-caret-position="220">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/live2d/js/live2d.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/happy_birthday/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/fileutils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="294" column="8" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14322">
+        <state relative-caret-position="1305">
           <caret line="651" column="5" selection-start-line="651" selection-start-column="5" selection-end-line="651" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/happy_birthday.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/happy_birthday.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/live2d/css/live2d.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/live2d/model/Pio/model.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="324" column="42" selection-start-line="324" selection-start-column="42" selection-end-line="324" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/live2d/js/message.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/live2d/model/新建文本文档.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
